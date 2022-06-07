@@ -1,0 +1,93 @@
+.widget-balance {
+    min-width: 340px;
+    padding: 30px;
+    background: #F7F9FC;
+    border-radius: 12px;
+    display: flex;
+}
+
+.widget-balance .btn-primary {
+    margin-top: 20px;
+}
+
+.widget-balance .btn-secondary {
+    margin-top: 20px;
+}
+
+.widget-balance:last-child {
+    flex: 1;
+    margin-left: 20px;
+    position: relative;
+}
+
+.widget-balance__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #202027;
+}
+
+.widget-balance__price {
+    font-weight: 600;
+    font-size: 48px;
+    color: #4DBA86;
+    display: flex;
+    align-items: baseline;
+}
+
+.widget-balance__price span {
+    font-weight: 600;
+    font-size: 32px;
+    color: #727D99;
+    opacity: 0.5;
+}
+
+.btn-primary img{
+    margin-right: 5px;
+}
+
+.widget-balance__price-up {
+    font-weight: 600;
+    font-size: 13px;
+    color: #409C70;
+    padding: 5px 15px 5px 8px;
+    margin-left: 5px;
+    background: rgba(77, 186, 134, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    max-width: 60px;
+    height: 24px;
+}
+
+.widget-balance__price-up img{
+    margin-right: 4px;
+}
+
+.widget-balance__graph {
+    margin-left: 12px;
+}
+
+.widget-balance-profits {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+}
+
+.widget-balance__profit + .widget-balance__profit {
+    margin-left: 50px;
+}
+
+.widget-balance__profit_price {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #6D6D8C;
+}
+
+.widget-balance__profit_title {
+    font-weight: 400;
+    font-size: 13px;
+    color: #676D7C;
+    opacity: 0.75;
+}

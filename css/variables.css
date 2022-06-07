@@ -1,0 +1,30 @@
+
+
+.form-access--text-reg {
+    font-weight: 500;
+    font-size: 13px;
+    color: #757B80;
+}
+.form-access--text-med {
+    font-weight: 500;
+    font-size: 14px;
+    color: #272D31;
+}
+
+.form-access--text-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #202027;
+}
+
+element {
+    --color-primary: #816FD9;
+    --color-secondary: #FFFFFF;
+    --color-secondary-border: #D4DBE3;
+    --main-title-color: #202027;
+    --second-title-color: #A0A6B1;
+    --third-title-color: #727D99;
+    --list-color: #757B80;
+    --color-primary-active: #796BE4;
+
+}

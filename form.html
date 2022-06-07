@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit/uikit.min.css" />
+</head>
+<body class="form-access">
+    <main class="form-access-main">
+        <div class="container">
+            <div class="form-access-content">
+                <div class="form-access-content__title form-access--text-title">Быстрый доступ</div>
+                <div class="form-access-content__сols">
+                    <div class="form-access-content__col select-col-1">
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">Логин</label>
+                            <select class="uk-select">
+                                <option>5asd88012</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">IP</label>
+                            <select class="uk-select select-col-1">
+                                <option>124.12.512.54</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">Страна</label>
+                            <select class="uk-select select-col-1">
+                                <option>Россия</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-access-content__col select-col-2-3">
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">Пароль</label>
+                            <select class="uk-select select-col-2-3">
+                                <option>88012JAS912m</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">Порт</label>
+                            <select class="uk-select select-col-2-3">
+                                <option>8080</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                        <div class="form-access-content__col-item">
+                            <label class="form-access--text-reg">Город</label>
+                            <select class="uk-select select-col-2-3">
+                                <option>Москва</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-access-content__col select-col-2-3">
+                        <div class="form-access-content__col-item" style="margin-top: 182px">
+                            <label class="form-access--text-reg">Провайдер</label>
+                            <select class="uk-select select-col-2-3">
+                                <option>Ростелеком</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-access-content__col">
+                    <div class="form-access-content__col-item select-col-row">
+                        <label class="form-access--text-reg">Прокси Uri</label>
+                        <select class="uk-select select-col-2-3">
+                            <option>5asd88012JAS912m</option>
+                            <option>Option 02</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-access-content__row">
+                    <div class="form-access-content__row-item">
+                        <div class="switch">
+                            <input class="plan-popup-input" type="checkbox" checked="checked" id="switch-btn-o">
+                            <label class="slider round" for="switch-btn-o"></label>
+                            <label class="form-access--text-med">Прокси ротация</label>
+                        </div>
+                    </div>
+                    <div class="form-access-content__row-item">
+                        <label class="form-access--text-reg">Время</label>
+                        <input class="uk-input" type="text">
+                        <label class="label-range form-access--text-reg">Диапазон секунд:<br> 0-300</label>
+                    </div>
+                </div>
+                <div class="form-access-content__row">
+                    <div class="form-access-content__row-col">
+                        <div class="form-access-content__row-col-title form-access--text-reg">Тип сессии</div>
+                        <p>
+                            <label class="  form-access--text-med"><input class="uk-radio" type="radio" name="radio1" checked>&nbsp;&nbsp;&nbsp;Ротация</label>
+                            &nbsp;
+                            <label class="form-access--text-med"><input class="uk-radio" type="radio" name="radio1">&nbsp;&nbsp;&nbsp;Липкие</label>
+                        </p>
+                        <div class="form-access-content__row-col-title form-access--text-reg">Протокол</div>
+                        <p>
+                            <label class="form-access--text-med"><input class="uk-radio" type="radio" name="radio2" checked>&nbsp;&nbsp;&nbsp;HTTP</label>
+                            &nbsp;
+                            <label class="form-access--text-med"><input class="uk-radio" type="radio" name="radio2">&nbsp;&nbsp;&nbsp;SOCKS5</label>
+                        </p>
+                        <div class="switch show-dns">
+                            <input class="" type="checkbox" checked="checked" id="switch-btn-t">
+                            <label class="slider round" for="switch-btn-t"></label>
+                            <label class="form-access--text-med">&nbsp;&nbsp;&nbsp;&nbsp;Показывать DNS</label>
+                        </div>
+                        <button class="btn btn-secondary">
+                            <img src="img/icons/Vector (2).png" alt="">&nbsp;&nbsp;Скачать список
+                        </button>
+                    </div>
+                    <div class="form-access-content__row-col">
+                        <div class="list-proxy">
+                            <div class="list-proxy__content">
+                                <div class="list-proxy__title form-access--text-title">Список прокси</div>
+                                <div class="list-proxy__text">
+                                    <span class="ip-proxy" contenteditable="true">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                    <span class="ip-proxy">premium-residental.aprocks.com:80801</span>
+                                </div>
+                                <button class="list-proxy__btn" data-clipboard-target=".ip-proxy--active">
+                                    <img src="img/icons/bxs_copy.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-access-content__btn">
+                    <img src="img/icons/Vector%20(11).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+    <script src="/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/uikit/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script src="js/clipboard.js"></script>
+</html>

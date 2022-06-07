@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASocks</title>
+    <link rel="stylesheet" href="libs/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit/uikit.min.css" />
+
+</head>
+<body class="dashboard">
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-logo">ASocks</div>
+            <div class="sidebar-block">
+                <div class="sidebar-block__title">Dashboard</div>
+                <ul class="sidebar-block__items">
+                    <li class="sidebar-block__item" style="background-image: url('img/icons/Component 1 (7).png')">
+                        <a href="#">Мои прокси</a>
+                    </li>
+                    <li class="sidebar-block__item sidebar-block__item--active" style="background-image: url('img/icons/Component 1 (8).png')">
+                        <a href="">Баланс и тарифы</a>
+                    </li>
+                    <li class="sidebar-block__item" style="background-image: url('img/icons/Component 1 (9).png')">
+                        <a href="">API</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-block">
+                <div class="sidebar-block__title">Аккаунт</div>
+                <ul class="sidebar-block__items">
+                    <li class="sidebar-block__item" style="background-image: url('img/icons/Component 1 (10).png')">
+                        <a href="#">Профиль</a>
+                    </li>
+                    <li class="sidebar-block__item" style="background-image: url('img/icons/Component 1 (11).png')">
+                        <a href="">Реферальная система</a>
+                    </li>
+                    <li class="sidebar-block__item" style="background-image: url('img/icons/Component 1 (12).png')">
+                        <a href="">Пользователи</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-block">
+                <div class="sidebar-block__title">Информация</div>
+                <nav class="sidebar-block__menu">
+                    <ul class="sidebar-block__items">
+                        <li class="sidebar-block__menu-item">
+                            <a href="#">Live Chat</a>
+                        </li>
+                        <li class="sidebar-block__menu-item">
+                            <a href="">Legal</a>
+                        </li>
+                        <li class="sidebar-block__menu-item">
+                            <a href="">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <main>
+            <header class="header">
+                <div class="header__left">
+                    <div class="header__title">Баланс и тарифы</div>
+                </div>
+                <div class="header__right">
+                    <button class="header__white">IP Whitelist</button>
+                    <div class="header-profile">
+                        <div class="header-profile__info">
+                            <div class="header-profile__info-money">
+                                <a href="">Пополнить</a>
+                                <span>$12,743.00</span>
+                            </div>
+                            <div class="header-profile__info-mail">
+                                <a href="#">johndoe@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="header-profile__avatar">
+                            <img src="img/Ellipse%202.png" alt="Avatar">
+                        </div>
+                        <div class="header-profile__log-out">
+                            <a href="#">
+                                <img src="img/icons/Component%201%20(6).png" alt="Exit">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main-content">
+                <div class="main-content-widgets">
+                    <div class="widget-balance">
+                        <div class="widget-balance__content">
+                            <div class="widget-balance__title">Текущий баланс</div>
+                            <div class="widget-balance__price">$12,743<span>.00</span></div>
+                            <button class="btn btn-primary">
+                                <img src="img/icons/Vector (2).png" alt="">Пополнить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="widget-balance">
+                        <div class="widget-balance__content">
+                            <div class="widget-balance__title">Реферальный баланс</div>
+                            <div class="widget-balance__price">
+                                <div>
+                                    $143<span>.12</span>
+                                </div>
+                                <div class="widget-balance__price-up">
+                                    <img src="img/icons/Vector%20(7).png" alt="">
+                                    $7.12
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary">Подробнее</button>
+                        </div>
+                        <div class="widget-balance__graph">
+                            <img src="img/Vector%201%20(1).png" alt="Graph">
+                        </div>
+                        <div class="widget-balance-profits">
+                            <div class="widget-balance__profit">
+                                <div class="widget-balance__profit_price">113,12$</div>
+                                <div class="widget-balance__profit_title">Общий доход</div>
+                            </div>
+                            <div class="widget-balance__profit">
+                                <div class="widget-balance__profit_price">13,43$</div>
+                                <div class="widget-balance__profit_title">Доход за 7 дней</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-line">
+                    <div class="main-content-line__title">Мои планы</div>
+                    <button class="btn btn-raised btn-main-popup">Оформить план</button>
+                </div>
+                <div class="main-content-plans">
+                    <div class="plan">
+                        <header class="plan-header">
+                            <div class="plan-header__title">
+                                Сотрудники, affilate
+                            </div>
+                            <div class="plan-header__subtitle">The Godfather</div>
+                        </header>
+                        <main class="plan__rows">
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (3).png')">3.24 Гб / 50 Гб</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (4).png')">100+ countries</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (5).png')" >
+                                <div class="plan__row-amount">3 <span>из 7</span></div>
+                                <button class="plan__row-button">Заполнить</button>
+                            </div>
+                        </main>
+                        <footer class="plan-footer">
+                            <div class="plan-footer__status plan-footer__status--active">Активен</div>
+                            <div class="plan-footer__expiration">до 16/04/2022</div>
+                        </footer>
+                        <div class="plan-menu"><span></span></div>
+
+                    </div>
+                    <div class="plan">
+                        <header class="plan-header">
+                            <div class="plan-header__title">
+                                Сотрудники, affilate
+                            </div>
+                            <div class="plan-header__subtitle">The Godfather</div>
+                        </header>
+                        <main class="plan__rows">
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (3).png')">3.24 Гб / 50 Гб</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (4).png')">100+ countries</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (5).png')" >
+                                <div class="plan__row-amount">3 <span>из 7</span></div>
+                                <button class="plan__row-button">Заполнить</button>
+                            </div>
+                        </main>
+                        <footer class="plan-footer">
+                            <div class="plan-footer__status plan-footer__status--active">Активен</div>
+                            <div class="plan-footer__expiration">до 16/04/2022</div>
+                        </footer>
+                        <div class="plan-menu"><span></span></div>
+                    </div>
+                    <div class="plan">
+                        <header class="plan-header">
+                            <div class="plan-header__title">
+                                Сотрудники, affilate
+                            </div>
+                            <div class="plan-header__subtitle">The Godfather</div>
+                        </header>
+                        <main class="plan__rows">
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (3).png')">3.24 Гб / 50 Гб</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (4).png')">100+ countries</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (5).png')" >
+                                <div class="plan__row-amount">3 <span>из 7</span></div>
+                            </div>
+                        </main>
+                        <footer class="plan-footer">
+                            <div class="plan-footer__status plan-footer__status--completed">Завершен</div>
+                            <div class="plan-footer__expiration">до 16/04/2022</div>
+                        </footer>
+                        <div class="plan-menu"><span></span></div>
+                    </div>
+                    <div class="plan">
+                        <header class="plan-header">
+                            <div class="plan-header__title">
+                                Сотрудники, affilate
+                            </div>
+                            <div class="plan-header__subtitle">The Godfather</div>
+                        </header>
+                        <main class="plan__rows">
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (3).png')">3.24 Гб / 50 Гб</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (4).png')">100+ countries</div>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (5).png')" >
+                                <div class="plan__row-amount">3 <span>из 7</span></div>
+                            </div>
+                        </main>
+                        <footer class="plan-footer">
+                            <div class="plan-footer__status plan-footer__status--completed">Завершен</div>
+                            <div class="plan-footer__expiration">до 16/04/2022</div>
+                        </footer>
+                        <div class="plan-menu"><span></span></div>
+                    </div>
+                </div>
+                <div class="main-content-line">
+                    <div class="main-content-line__title">История платежей</div>
+                </div>
+                <table class="payment-data">
+                    <thead>
+                    <tr>
+                        <td>Дата</td>
+                        <td>Статус</td>
+                        <td></td>
+                        <td></td>
+                        <td>Способ</td>
+                        <td>Сумма транзакции</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="payment-data-item">03.12.2021</td>
+                            <td>
+                                <div class=" payment-data-status payment-data-status--processing">Обрабатывается</div>
+                            </td>
+                            <td class="payment-data-item">Пополнение счёта</td>
+                            <td class="payment-data-item payment-data-item--upp">d8df6ae25c8b55d868</td>
+                            <td class="payment-data-method payment-data-method--btc">BTC</td>
+                            <td class="payment-data-method">0.0250 BTC<br><span>15.65 USD</span></td>
+                        </tr>
+                        <tr>
+                            <td class="payment-data-item">03.12.2021</td>
+                            <td>
+                                <div class=" payment-data-status payment-data-status--complete">Выполнено</div>
+                            </td>
+                            <td class="payment-data-item">Пополнение счёта</td>
+                            <td class="payment-data-item payment-data-item--upp">d8df6ae25c8b55d868</td>
+                            <td class="payment-data-method">USD</td>
+                            <td class="payment-data-method">0.0250 BTC</td>
+                        </tr>
+                        <tr>
+                            <td class="payment-data-item">03.12.2021</td>
+                            <td>
+                                <div class=" payment-data-status payment-data-status--complete">Выполнено</div>
+                            </td>
+                            <td class="payment-data-item">Пополнение счёта</td>
+                            <td class="payment-data-item payment-data-item--upp">d8df6ae25c8b55d868</td>
+                            <td class="payment-data-method payment-data-method--btc">BTC</td>
+                            <td class="payment-data-method">0.0250 BTC<br><span>15.65 USD</span></td>
+                        </tr>
+                        <tr>
+                            <td class="payment-data-item">03.12.2021</td>
+                            <td>
+                                <div class=" payment-data-status payment-data-status--complete">Выполнено</div>
+                            </td>
+                            <td class="payment-data-item">Продление тарифа</td>
+                            <td class="payment-data-item payment-data-item--upp">d8df6ae25c8b55d868</td>
+                            <td class="payment-data-method">USD</td>
+                            <td class="payment-data-method">0.0250 BTC</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="plan-popup">
+                <div class="plan-popup__content">
+                    <div class="switch">
+                        <label class="plan-popup-label" for="plan-popup__input">Выключить</label>
+                        <input class="plan-popup-input" type="checkbox" checked="checked" id="plan-popup__input">
+                        <label class="slider round" for="plan-popup__input"></label>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Список пользователей</a>
+                        </li>
+                        <li>
+                            <a href="#">Продлить план</a>
+                        </li>
+                        <li>
+                            <a href="#">История платежей</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-popup">
+                <div class="main-popup__bg"></div>
+                <div class="main-popup__content">
+                    <div class="main-popup__title">Активация триала</div>
+                    <div class="main-popup__subtitle">Триал доступен единоразово только для новых пользователей. Начать триал?</div>
+                    <div class="plan__rows">
+                        <p>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (3).png')">200 Мб трафика</div>
+                        </p>
+                        <p>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (4).png')">25 стран на выбор</div>
+                        </p>
+                        <p>
+                            <div class="plan__row" style="background-image: url('img/icons/Vector (8).png')" >7 дней</div>
+                        </p>
+                        <div class="main-popup-controls">
+                            <button class="btn btn-secondary">Оставить</button>
+                            <button class="btn btn-raised">Начать триал</button>
+                        </div>
+                    </div>
+                    <div class="main-popup__exit"><a href="#" uk-close></a></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+    <script src="/libs/jquery-3.6.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="js/uikit/uikit.min.js"></script>
+    <script src="js/uikit/uikit-icons.min.js"></script>
+</html>

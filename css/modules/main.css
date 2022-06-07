@@ -1,0 +1,43 @@
+
+
+.dashboard main{
+    flex: 1;
+    position: relative;
+}
+
+.main-content {
+    padding: 30px 40px 0 25px;
+    position: relative;
+}
+
+.main-content-widgets {
+    display: flex;
+}
+
+.main-content-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0 20px 0;
+}
+
+.main-content-line__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #202027;
+}
+
+.main-content-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+

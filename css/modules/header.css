@@ -1,0 +1,79 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header__left {
+    padding-left: 35px;
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #202027;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__white {
+    border: 1px solid rgba(165, 145, 248, 0.25);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5F56AA;
+    background-color: white;
+    margin-right: 35px;
+    padding: 6px 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.header__white:hover {
+    text-shadow: 0 0 1px #5F56AA;
+    border: 1px solid #5F56AA;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-profile__info {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.header-profile__info a{
+    text-decoration-line: none;
+}
+
+.header-profile__info-money a{
+    font-weight: 500;
+    color: #5F56AA;
+}
+
+.header-profile__info-money span{
+    font-weight: 600;
+    font-size: 13px;
+    color: #282828;
+}
+
+.header-profile__info-mail {
+    text-align: right;
+}
+
+.header-profile__info-mail a{
+    color: #727D99;
+}
+
+.header-profile__avatar {
+    margin: 0 15px;
+}
